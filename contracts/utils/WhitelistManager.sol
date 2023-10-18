@@ -68,11 +68,20 @@ contract WhitelistManager {
     }
 
     /**
+     * @dev To remove an address to verifier role
+     */
+    function removeVerifier(address _address) public onlyOwners {
+        _verifiers.add(_address);
+    }
+
+    /**
      * @dev To check whether the address is whitelisted or not
      */
     function isWhitelisted(address _address) external view returns (bool) {
         return _whitelisted.has(_address);
     }
+
+    function isWhitelistedAll() external view returns (address[] memory) {}
 
     /**
      * @dev To remove an address from whitelist
