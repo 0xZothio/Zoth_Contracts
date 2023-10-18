@@ -182,31 +182,31 @@ contract ZothTestLPMultiFreq is ERC721URIStorage, ReentrancyGuard {
             // blue
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/QmTQPruCbeAEdKURBrqP7bn6WMVJ6qS1dK2QmC9VFPwWKf"
+                "https://red-domestic-penguin-939.mypinata.cloud/ipfs/QmUx3UiUcAcbNKdd1kbgAZJtJawko44XY45XuLNp72DmFY"
             );
         } else if (amount > 10000 * 10 ** 6 && amount <= 25000 * 10 ** 6) {
             // green
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/QmP2snZ1KEivDYhVrsrWEwZZGYcfQAputduj1XAnUVaWRX"
+                "https://red-domestic-penguin-939.mypinata.cloud/ipfs/QmZsTtJnitPujJEN2BKRSt7k6uMLqr2FCkGo5imGLZFFzc"
             );
         } else if (amount > 25000 * 10 ** 6 && amount <= 50000 * 10 ** 6) {
             // pink
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/Qme6hPo9g4CSRuaNnkMKuhBzxCRkTkgJnaVVZUmNHWXhq7"
+                "https://red-domestic-penguin-939.mypinata.cloud/ipfs/QmZrrFxQnvPEeUhakJj8U8crYx5WuGLMuM35FpquUVAxBk"
             );
         } else if (amount > 50000 * 10 ** 6 && amount <= 100000 * 10 ** 6) {
             // silver
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/Qme5hZZBvJndnMQ3F3SwFvNiQ9uDQffUBoNfjzEbNwXxau"
+                "https://red-domestic-penguin-939.mypinata.cloud/ipfs/QmRcrA2iUwffz4fcTUpnxTDzZ83ZX8HBV4c9NnEej35Mrf"
             );
         } else {
             // gold
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/Qmd1iHgq2GuDs77gUo3aV9FxcabZYTLuC6xvmFhja2zpP9"
+                "https://red-domestic-penguin-939.mypinata.cloud/ipfs/QmZBtT6boS7qcmQJiX3i4rfXTApQWZ8aNUpV3Yx1r3ekpU"
             );
         }
 
