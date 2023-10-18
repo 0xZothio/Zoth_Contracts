@@ -182,31 +182,31 @@ contract ZothTestLPMultiFreq is ERC721URIStorage, ReentrancyGuard {
             // blue
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/QmeRhd2icJLyNbD9yzKoiJUvxtBw4u43JB25jzt73vMv28"
+                "https://gateway.pinata.cloud/ipfs/QmTQPruCbeAEdKURBrqP7bn6WMVJ6qS1dK2QmC9VFPwWKf"
             );
         } else if (amount > 10000 * 10 ** 6 && amount <= 25000 * 10 ** 6) {
             // green
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/QmQhC6FSRsvYYj1i822TSsf9oHgH9NKuRbW6bq3STikcZC"
+                "https://gateway.pinata.cloud/ipfs/QmP2snZ1KEivDYhVrsrWEwZZGYcfQAputduj1XAnUVaWRX"
             );
         } else if (amount > 25000 * 10 ** 6 && amount <= 50000 * 10 ** 6) {
             // pink
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/QmXd8zMjQ2H7KkpbXh8YdRYSMtwPnuZKTF1PFvfQTP2vDA"
+                "https://gateway.pinata.cloud/ipfs/Qme6hPo9g4CSRuaNnkMKuhBzxCRkTkgJnaVVZUmNHWXhq7"
             );
         } else if (amount > 50000 * 10 ** 6 && amount <= 100000 * 10 ** 6) {
             // silver
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/QmT8JpQRXbpBngynEpCHM7n8HGJPpL6Bt6sKPfwi93x5MF"
+                "https://gateway.pinata.cloud/ipfs/Qme5hZZBvJndnMQ3F3SwFvNiQ9uDQffUBoNfjzEbNwXxau"
             );
         } else {
             // gold
             _setTokenURI(
                 newTokenId,
-                "https://gateway.pinata.cloud/ipfs/QmUwJV8oDYT6QmixTiEr29Z2xpVTGSCa68oQsm5vsud6RQ"
+                "https://gateway.pinata.cloud/ipfs/Qmd1iHgq2GuDs77gUo3aV9FxcabZYTLuC6xvmFhja2zpP9"
             );
         }
 
