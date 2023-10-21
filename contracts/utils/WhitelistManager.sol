@@ -86,7 +86,7 @@ contract WhitelistManager {
     /**
      * @dev To remove an address from whitelist
      */
-    function removeWhitelisted(address _address) public {
+    function removeWhitelisted(address _address) public onlyOwners {
         _whitelisted.remove(_address);
     }
 
