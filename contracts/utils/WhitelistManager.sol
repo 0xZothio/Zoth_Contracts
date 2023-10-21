@@ -86,7 +86,7 @@ contract WhitelistManager {
     /**
      * @dev To remove an address from whitelist
      */
-    function removeWhitelisted(address _address) public onlyOwners {
+    function removeWhitelisted(address _address) public onlyAuthorities {
         _whitelisted.remove(_address);
     }
 
@@ -95,7 +95,7 @@ contract WhitelistManager {
      */
     function removeWhitelistedAddresses(
         address[] memory _addresses
-    ) public onlyOwners {
+    ) public onlyAuthorities {
         for (uint256 i = 0; i < _addresses.length; i++) {
             _whitelisted.remove(_addresses[i]);
         }
